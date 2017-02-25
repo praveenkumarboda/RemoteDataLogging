@@ -25,7 +25,7 @@ while (true)
 			die("Connection failed: " . $conn->connect_error);
 		}
 		$sql = "INSERT INTO SensorValues (sensor1, sensor2,sensor3, email)
-VALUES ('$input', '$sensor1','$sensor2', 'praveenkumarboda@gmail.com')";
+VALUES ('$input', '$sensor1','$sensor2', 'example@gmail.com')";
 
 		if ($conn->query($sql) === TRUE) 
 		{
